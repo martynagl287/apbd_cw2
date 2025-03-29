@@ -1,42 +1,38 @@
-﻿using Cwiczenia2.Inheritance;
+using System;
+using Cwiczenia2.Inheritance;
 
+namespace Cwiczenia2.Inheritance
 {
-    int number = 10;
-    string text = "Text: " + number +".";
-    string textWithDollar = $"Text: {number}.";
-    
-    var k = "text";
-    
-    // Nullable
-    int? nullableInt = null;
-    nullableInt = 4;
-    Object? o = null;
-}
-
-// Kolekcje
-{
-    
-    var list = new List<int>();
-    list.Add(10);
-    
-    var dict = new Dictionary<string, int>();
-    dict.Add("klucz", 10);
-}
-
-// Bledy
-{
-    try
+    class Program
     {
-        throw new Exception();
-    }
-    catch (Exception e)
-    {
-        Console.WriteLine(e);
+        static void Main(string[] args)
+        {
+            try
+            {
+                Ship ship = new("Baltic Carrier", 25.0, 5, 150);
+
+                var container1 = new RefrigeratedContainer(260, 3000, 600, 27000, "bananas", 14);
+                var container2 = new LiquidContainer(250, 2000, 550, 24000, true);
+                var container3 = new GasContainer(250, 2500, 600, 20000, 10);
+
+                container1.LoadCargo(13000);
+                container2.LoadCargo(12000);
+                container3.LoadCargo(19000);
+
+                ship.LoadContainer(container1);
+                ship.LoadContainer(container2);
+                ship.LoadContainer(container3);
+
+                ship.PrintShipInfo();
+            }
+            catch (OverfillException ex)
+            {
+                Console.WriteLine($"Przepełnienie: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Błąd uruchomienia: {ex.Message}");
+            }
+        }
     }
 }
-
-A a = new A(1);
-A b = new B(1, 2);
-
-a.DoSomething();
-b.DoSomething();

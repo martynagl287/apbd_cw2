@@ -1,0 +1,15 @@
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\bin\Debug\net8.0\Cwiczenia2.exe
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\bin\Debug\net8.0\Cwiczenia2.deps.json
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\bin\Debug\net8.0\Cwiczenia2.runtimeconfig.json
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\bin\Debug\net8.0\Cwiczenia2.dll
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\bin\Debug\net8.0\Cwiczenia2.pdb
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\obj\Debug\net8.0\Cwiczenia2.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\obj\Debug\net8.0\Cwiczenia2.AssemblyInfoInputs.cache
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\obj\Debug\net8.0\Cwiczenia2.AssemblyInfo.cs
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\obj\Debug\net8.0\Cwiczenia2.csproj.CoreCompileInputs.cache
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\obj\Debug\net8.0\Cwiczenia2.sourcelink.json
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\obj\Debug\net8.0\Cwiczenia2.dll
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\obj\Debug\net8.0\refint\Cwiczenia2.dll
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\obj\Debug\net8.0\Cwiczenia2.pdb
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\obj\Debug\net8.0\Cwiczenia2.genruntimeconfig.cache
+Z:\Cwiczenia2\Cwiczenia2\Cwiczenia2\obj\Debug\net8.0\ref\Cwiczenia2.dll

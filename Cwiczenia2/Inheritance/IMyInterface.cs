@@ -1,6 +1,7 @@
-﻿namespace Cwiczenia2.Inheritance;
-
-public interface IMyInterface
+﻿namespace Cwiczenia2.Inheritance
 {
-    void DoSomething();
+    public interface IMyInterface
+    {
+        void DoSomething();
+    }
 }
